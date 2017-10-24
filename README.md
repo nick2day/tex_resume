@@ -53,7 +53,7 @@ pdflatex nick-doubleday.tex
 
 #Fedora/CentOS/RedHat: 
 pdflatex nick-doubleday.tex
-```bash
+```
 
 On Arch, the output looks like this:
 
