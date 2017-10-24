@@ -1,0 +1,107 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{helvet} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Nick Doubleday}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{Website: https://doubleday.io}
+ \moveleft.5\hoffset\centerline{Email: nick@doubleday.io}
+
+
+\begin{resume}
+
+\section{OBJECTIVE} My goal is to partner my 18 years of Linux experience with a company renowned for its contribution to the Information Technology industry.  Having worked with enterprise applications for the last six years, I want to leverage that background to contribute back to the Open Source community and to help innovate solutions to the problems of a company in an ever evolving technological space. 
+
+\section{TECHNOLOGY} 
+		   {\sl Languages:} Bash, and basic Python, Perl and C/C++
+                \\ {\sl Automation/Build Tools:} ManageIQ, Jenkins, Ansible, SaltStack, Artifactory
+		\\ {\sl App and Web Servers:} Nginx, Apache, Jboss, Tomcat, NodeJS
+		\\ {\sl Databases:} Elasticsearch, MySQL, Postgres, and some MongoDB
+		\\ {\sl Virtualization:} Openshift, Kubernetes, VMware, Docker, Openstack, KVM, OpenVZ
+		\\ {\sl Collaboration Tools:} Git, Jira, Confluence, Trello, SVN, Mercurial 
+		\\ {\sl Operating Systems:} RHEL, CentOS, Debian, Ubuntu, Arch, Slackware
+ 
+\section{CAREER PROFILE} 
+		{\sl Linux Systems Engineer II} \hfill February 2017 - Current \\
+		Rackspace, Technology and Engineering Services - Site Reliability Engineering Team
+		\begin{itemize} \itemsep -2pt
+		\item Building the first containerized PaaS/IaaS for internal applications at Rackspace
+		\item Deployed and currently maintains a multi-region Openshift Envirnoment
+		\item Architected, deployed and maintains an enterprise storage cluster (Ceph)
+		\item Developing and enforcing standards to transition Rackspace from DevOps model to an SRE model
+		\item Creating a self-service 'single pane of glass' to tie together all of our internal PaaS and IaaS solutions
+		\item Leader and steward of Change Management and operational discipline
+
+		\end{itemize}
+		{\sl Linux Systems Engineer I-II} \hfill September 2015 - February 2017 \\ 
+		Rackspace, Global Enterprise Technologies - Linux Engineering Team
+                \begin{itemize} \itemsep -2pt
+		\item Owned 22 applications critical to the functioning of the business
+		\item Architected infrastructure and application stack on new applications
+		\item Engineered deployment pipelines in accordance with CI/CD methodologies
+		\item Authored Run books to allow tier 1 and tier 2 support to quickly solve problems
+		\item Introduced configuration management to critical legacy applications
+		\end{itemize}
+
+		{\sl Linux Administrator I-III} \hfill June 2013 - September 2015 \\
+                Rackspace, Engine Room - SMB Linux Support
+                \begin{itemize}  \itemsep -2pt
+                \item  Senior technical escalation point for the after hours support team.
+		\item  Represented all of after hours at technical leadership meetings 
+                \item  Developed and implemented a mentorship program
+		\item  Point of Contact during critical high volume events and incidents
+		\end{itemize}
+ 
+              {\sl Linux Systems Administrator I} \hfill            Jan 2012 - June 2013 \\
+                HostGator LLC,  Austin TX                
+                \begin{itemize}  \itemsep -2pt
+                \item Supported a wide variety of technologies and Content Management Systems
+                \item Virtualization experience (OpenVZ)
+		\item Diagnosed server load and assisted clients in forming remediation strategies. 
+		\end{itemize} 
+
+		{\sl Freelancer} \hfill        April 2008 - Jan 2012 \\
+                Various Locations, Kalamazoo, MI
+		\begin{itemize} \itemsep -2pt
+                \item Web Development and Linux Administration for multiple clients
+                \item Acted as IT Consultant for small businesses building new environments
+                \item Self-hosted all websites constructed on a non-managed server
+                \end{itemize} 
+ 
+\section{PROJECT WORK}   
+		{\sl Technical Groups} 
+		\begin{itemize} \itemsep -2pt  
+		\item {\it Linux Tech Council} - Linux Decision making and Rackspace best practices 
+		\item {\it One RAX Hiring} - Interviewing and hiring technical candidates 
+		\end{itemize}
+		{\sl Past Projects}
+		\begin{itemize} \itemsep -2pt
+		\item {\it Spheres of Support Committee} - Decided and formalized what Rackspace would support for customers
+		\item {\it CentOS/RHEL 7 Project}  - Assisted in creation of the 'golden image' for RHEL 7 currently used by Rackspace customers
+		\item {\it Ubuntu/Debian Project} - Created 'golden image' for Ubuntu and Debian Distros; bringing support Ubuntu/Debian to Rackspace customers on dedicated servers for the first time.
+		\end{itemize}
+\section{OTHER \\ ACTIVITIES} 
+		{\sl Non-Profit Work} 
+		\begin{itemize} \itemsep -2pt
+		\item Organizer for Texas Linux Fest 2013-2016 
+		\item President and Founder of Xipherspace - A Non-profit, Kalamazoo MI area Hackerspace 2011-2012
+		\item President - Kalamazoo Linux User Group, 2011-2012
+		\end{itemize}
+		{\sl Memberships} 
+		\begin{itemize} \itemsep -2pt
+		\item Openshift Commons
+		\item Electronic Frontier Foundation
+		\item Free Software Foundation
+		\end{itemize}
+	     
+\end{resume}
+\end{document}
+
